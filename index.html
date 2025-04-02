@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Kaaloan </title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__header">
+        <div class="nav__logo">
+          <a href="#">
+            <img src="assets/logo-dark.png" alt="logo"  />
+          </a>
+        </div>
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#loans">Loan Options</a></li>
+        <li><a href="#apply">Apply Now</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <div class="nav__btns">
+        <button class="btn"><i class="ri-file-text-line"></i> Apply</button>
+      </div>
+    </nav>
+
+        
+<!-- header -->
+<section class="hero" id="hero">
+  <div class="section__container hero__container">
+    <div class="hero__content">
+      <h1 class="hero__header">Empower Your Future with Fast & Easy Loans</h1>
+      <p class="hero__description">
+        Whether for personal needs, business growth, or emergencies, Kaaloan provides tailored financial solutions with transparent terms and fast approvals.
+      </p>
+      <div class="nav__btns">
+        <button class="btn"><i class="ri-file-text-line"></i> Apply Now</button>
+      </div>
+    </div>
+    <div class="hero__image">
+      <img src="assets/hero-image.png" alt="Hero Image" />
+    </div>
+  </div>
+</section>
+
+    
+<!-- Popular Loan Options Section -->
+<section class="section__container loan__container" id="loans">
+  <h2 class="section__header">Our Popular <span>Loan Options</span></h2>
+  <div class="loan__grid">
+    <div class="loan__card">
+      <img src="assets/loan-personal.jpg" alt="Personal Loan" />
+      <h4>Personal Loan</h4>
+      <p>
+        Get quick access to funds for your personal needs with flexible
+        repayment plans and competitive interest rates.
+      </p>
+      <div class="loan__card__footer">
+        <h3>From :Ksh 5,000</h3>
+        <button class="btn btn-primary"><i class="ri-file-text-line"></i> Apply Now</button>
+      </div>
+    </div>
+    <div class="loan__card">
+      <img src="assets/loan-business.jpg" alt="Business Loan" />
+      <h4>Business Loan</h4>
+      <p>
+        Fuel your business growth with a hassle-free loan designed to support
+        entrepreneurs and SMEs.
+      </p>
+      <div class="loan__card__footer">
+        <h3>From : ksh 15,000</h3>
+        <button class="btn">Apply Now</button>
+      </div>
+    </div>
+    <div class="loan__card">
+      <img src="assets/loan-education.jpg" alt="Education Loan" />
+      <h4>Education Loan</h4>
+      <p>
+        Invest in your future with a loan that covers tuition, books, and
+        living expenses for students.
+      </p>
+      <div class="loan__card__footer">
+        <h3>From ksh20,000</h3>
+        <button class="btn">Apply Now</button>
+      </div>
+    </div>
+  </div>
+  <div class="loan__btn">
+    <button class="btn">
+      View All Loan Options
+      <span><i class="ri-arrow-right-line"></i></span>
+    </button>
+  </div>
+</section>
+
+
+    <!-- about -->
+    <section class="loan-types" id="loan-types">
+      <div class="section__container loan-types__container">
+        <h2 class="section__header">Our Loan Options</h2>
+        <div class="loan-types__grid">
+          <div class="loan-type__card">
+            <h4>Personal Loans</h4>
+            <p>Flexible loans designed to support your personal needs, with easy terms and fast approvals.</p>
+          </div>
+          <div class="loan-type__card">
+            <h4>Business Loans</h4>
+            <p>Fuel the growth of your business with low-interest loans and flexible repayment plans.</p>
+          </div>
+          <div class="loan-type__card">
+            <h4>Emergency Loans</h4>
+            <p>Get quick financial relief in emergencies, with minimal paperwork and speedy processing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+
+
+<!-- how it works -->
+<section class="how-it-works" id="how-it-works">
+  <div class="section__container how-it-works__container">
+    <h2 class="section__header">How It Works</h2>
+    <div class="how-it-works__steps">
+      <div class="step">
+        <div class="step__icon">
+          <i class="fas fa-clipboard-list" style="color: lightblue;"></i>
+        </div>
+        <h4>Step 1: Choose Your Loan Type</h4>
+        <p>Select the loan that suits your needs from personal, business, or emergency options.</p>
+      </div>
+      <div class="step">
+        <div class="step__icon">
+          <i class="fas fa-file-alt"></i>
+        </div>
+        <h4>Step 2: Apply Online</h4>
+        <p>Fill out our simple online application form and submit your documents for review.</p>
+      </div>
+      <div class="step">
+        <div class="step__icon">
+          <i class="fas fa-check-circle" style="color: green;"></i>
+        </div>
+        <h4>Step 3: Get Approved</h4>
+        <p>Our team reviews your application, and you get a quick decision on approval.</p>
+      </div>
+      <div class="step">
+        <div class="step__icon">
+          <i class="fas fa-hand-holding-usd" style="color: purple;"></i>
+        </div>
+        <h4>Step 4: Receive Your Funds</h4>
+        <p>Once approved, the funds are disbursed to your account, quickly and securely.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- apply -->
+    <section class="banner" id="loan">
+  <div class="section__container banner__container">
+    <div class="banner__image">
+      <img src="assets/banner-loan.png" alt="Kaaloan Banner" />
+    </div>
+    <div class="banner__content">
+      <h2 class="banner__section__header">
+        Smart Loans, Secure <span>Future</span>
+      </h2>
+      <p>
+        At Kaaloan, we empower you with quick, hassle-free loans tailored to
+        your needs. Whether for business, education, or personal use, our
+        flexible financing solutions help you achieve financial freedom with
+        ease.
+      </p>
+      <div class="banner__btn">
+        <button class="btn">
+          Learn More
+          <span><i class="ri-arrow-right-line"></i></span>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- testimonials-->
+<section class="trust-signals" id="trust-signals">
+  <div class="section__container trust-signals__container">
+    <h2 class="section__header">Trusted by 1000+ Customers</h2>
+    <div class="swiper trust-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <div class="testimonial">
+            <p>"Kaaloan helped me get the funds I needed for my business expansion. The process was smooth and hassle-free!"</p>
+            <div class="testimonial-footer">
+              <img src="assets/customer-1.jpg" alt="Customer Image" />
+              <div>
+                <h4>Sarah Johnson</h4>
+                <h5>Business Owner</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial">
+            <p>"Fast approval and transparent terms! I was able to manage my finances with ease thanks to Kaaloan."</p>
+            <div class="testimonial-footer">
+              <img src="assets/customer-2.jpg" alt="Customer Image" />
+              <div>
+                <h4>Collins Joshua</h4>
+                <h5>Software Engineer</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="testimonial">
+            <p>"I needed emergency funds quickly, and Kaaloan delivered. Simple application and fast payout."</p>
+            <div class="testimonial-footer">
+              <img src="assets/customer-3.jpg" alt="Customer Image" />
+              <div>
+                <h4>Joseph jose</h4>
+                <h5>Fitness Trainer</h5>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-controls">
+        <button class="btn swiper-prev"><i class="ri-arrow-left-line"></i></button>
+        <button class="btn swiper-next"><i class="ri-arrow-right-line"></i></button>
+      </div>
+    </div>
+    <div class="security-badges">
+      <img src="assets/security-badge.png" alt="Security Badge" />
+      <span>Secure & Trusted Payment</span>
+    </div>
+  </div>
+</section>
+
+<!-- contact-faq -->
+<section class="contact" id="contact">
+  <div class="section__container contact__container">
+    <h2 class="contact__section__header">Get In Touch</h2>
+    <p class="contact__description">
+      If you have any questions, our support team is here to assist you!
+    </p>
+    
+    <div class="contact__content">
+      <div class="contact__info">
+        <div class="info-item">
+          <i class="ri-map-pin-line"></i>
+          <span>123 Kaaloan Street, Nairobi, Kenya</span>
+        </div>
+        <div class="info-item">
+          <i class="ri-mail-line"></i>
+          <span>support@kaaloan.com</span>
+        </div>
+        <div class="info-item">
+          <i class="ri-phone-line"></i>
+          <span>+254 700 123 456</span>
+        </div>
+      </div>
+
+      <form action="#" method="POST" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+      </form>
+    </div>
+  </div>
+</section>
+
+
+<section class="faq" id="faq"> 
+  <div class="section__container faq__container">
+    <h2 class="faq__section__header">Frequently Asked Questions</h2>
+    <div class="faq__list">
+      <div class="faq__item">
+        <button class="faq__question">What loan options do you offer? <span class="faq__icon">+</span></button>
+        <div class="faq__answer">
+          <p>We offer Personal, Business, and Emergency loans tailored to your needs.</p>
+        </div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__question">How long does it take to get approved? <span class="faq__icon">+</span></button>
+        <div class="faq__answer">
+          <p>Most applications are reviewed and approved within 24 hours.</p>
+        </div>
+      </div>
+      <div class="faq__item">
+        <button class="faq__question">What documents do I need? <span class="faq__icon">+</span></button>
+        <div class="faq__answer">
+          <p>We require a valid ID, proof of income, and address verification.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<!-- Go to Top Button -->
+<button id="goTopBtn" class="go-top-btn">
+  <i class="ri-arrow-up-line"></i>
+</button>
+
+
+
+<footer class="footer"> 
+  <div class="section__container footer__container">
+    <div class="footer__col">
+      <a href="#" class="nav__logo">
+        <img src="assets/logo-dark.png" alt="logo" />
+      </a>
+      <p>
+        Empowering your financial future with quick loans, flexible terms, and
+        transparent processes. Secure the funding you need today!
+      </p>
+    </div>
+    <div class="footer__col">
+      <h4>Services</h4>
+      <ul class="footer__links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Loans</a></li>
+        <li><a href="#">About Us</a></li>
+       
+      </ul>
+    </div>
+    <div class="footer__col">
+      <h4>   </h4>
+      <ul class="footer__links">
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">FAQ</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+    </div>
+ 
+  </div>
+  <div class="footer__bar">
+    Copyright © 2024 Kaaloan. All rights reserved. Proudly created by Novacolabs technologies.
+  </div>
+</footer>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+    <script>
+      
+      
+      document.getElementById('menu-btn').addEventListener('click', function () {
+  document.getElementById('nav-links').classList.toggle('active');
+});
+
+document.addEventListener("DOMContentLoaded", function () {
+  const faqItems = document.querySelectorAll(".faq__item");
+
+  faqItems.forEach((item) => {
+    const question = item.querySelector(".faq__question");
+    question.addEventListener("click", () => {
+      item.classList.toggle("active");
+      let icon = item.querySelector(".faq__icon");
+      icon.textContent = item.classList.contains("active") ? "-" : "+";
+    });
+  });
+});
+// Get the button
+const goTopBtn = document.getElementById("goTopBtn");
+
+// Show button when scrolling down
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    goTopBtn.classList.add("show");
+  } else {
+    goTopBtn.classList.remove("show");
+  }
+});
+
+// Scroll to top when button is clicked
+goTopBtn.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth"
+  });
+});
+
+    </script>
+  </body>
+</html>
